@@ -34,7 +34,7 @@ const HomePage = () => {
       {/* Header */}
       <div className="header">
         <h1>E-Commerce</h1>
-        <h4><marquee> Welcome to My Online Store </marquee></h4>
+        <h3><marquee><i> Welcome to My Online Store </i></marquee></h3>
         <div className="header-right">
           {isAuthenticated ? (
             <div className="profile-menu">
